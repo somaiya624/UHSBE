@@ -1,0 +1,93 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+  background-color: white;
+  color: #333;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  width: 200px;
+  height: auto;
+  margin: 0;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Main content styles */
+main {
+  padding: 0;
+}
+
+#hero {
+  padding: 0;
+  margin: 0;
+}
+
+.welcome-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  top: -80px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #d3d3d3;
+  color: #333;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: -30px;
+}
+
+footer .social-media {
+  margin-top: 10px;
+}
+
+footer .social-media img {
+  width: 35px;
+  height: 35px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+footer .social-media a {
+  color: #333;
+  text-decoration: none;
+}
