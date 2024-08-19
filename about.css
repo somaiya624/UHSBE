@@ -136,3 +136,17 @@ footer .social-media a {
   color: #333;
   text-decoration: none;
 }
+
+.orange-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.orange-button:hover {
+  background-color: #cc5200;
+}

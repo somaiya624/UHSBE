@@ -16,6 +16,7 @@ header {
   align-items: center;
 }
 
+/* Logo container styles */
 header .logo-container {
   display: flex;
   align-items: center;
@@ -29,23 +30,42 @@ header .logo {
 
 nav {
   flex-grow: 1;
-  text-align: right;
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-end; 
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  align-items: center; 
 }
 
 nav ul li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 10px; 
 }
 
 nav ul li a {
   color: #333;
   text-decoration: none;
+}
+
+.orange-button {
+  background-color: #ff6600; 
+  color: white;
+  padding: 15px 30px; 
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem; 
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+.orange-button:hover {
+  background-color: #cc5200; 
 }
 
 /* Main content styles */
